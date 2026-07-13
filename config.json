@@ -3,6 +3,6 @@
         "dir" : "$HOME/Workspace/dochub"
     },
     "reader": {
-        "cmd" : "zathura"
+        "cmd" : "zen-browser"
     }
 }
