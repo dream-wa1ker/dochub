@@ -34,19 +34,19 @@ openBookProgramming() {
     subtype="${1}"
     case "$subtype" in
     "asm")
-        path="$dochub_dir/Assembly"
+        path="$dochub_dir/assembly"
         fzfOpen "$path"
         ;;
     "c")
-        path="$dochub_dir/C"
+        path="$dochub_dir/c"
         fzfOpen "$path"
         ;;
     "bash")
-        path="$dochub_dir/Bash"
+        path="$dochub_dir/bash"
         fzfOpen "$path"
         ;;
     "lua")
-        path="$dochub_dir/Lua"
+        path="$dochub_dir/lua"
         fzfOpen "$path"
         ;;
     *)
